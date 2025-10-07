@@ -4,16 +4,11 @@ export default function HomeScreen() {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.card}>
-        {/* Foto: coloque sua imagem em assets/images/profile.jpg */}
         <Image
-          source={require('../../assets/images/profile.jpg')}
+          source={require('../../assets/images/minha-foto.jpg')}
           style={styles.photo}
         />
-
-        {/* Nome destacado */}
         <Text style={styles.name}>David Cândido</Text>
-
-        {/* Mini bio */}
         <Text style={styles.bio}>
           Sou estudante apaixonado por tecnologia e desenvolvimento de software.
           Tenho interesse em criar aplicativos modernos com React Native e aprender
